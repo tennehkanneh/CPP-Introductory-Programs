@@ -16,18 +16,14 @@ bool isPrimeNumber(int n)
 
 void primeNumbBetween(int start, int end)
 {
-    if (start == end ) {
-        cout << endl;
-        return; 
-    }
+    if (start > end) return;
 
-    start++;
-
-    if (isPrimeNumber(start))
+    if (isPrimeNumber(start)) 
     {
-         cout << start << " ";
+        cout << start << " ";
     }
-    primeNumbBetween(start, end);
+
+    primeNumbBetween(start + 1, end);
 }
 
 int main()
