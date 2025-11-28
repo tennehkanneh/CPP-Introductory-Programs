@@ -1,0 +1,37 @@
+Will use this issue to add 7 Introductory Sample programs to the project:
+
+Hello [Insert] (already completed in previous issue)
+Temperature Converter (intro to conditions)
+Guess the number (intro to loops)
+Find all prime numbers in a specific range (intro to functions)
+A Stack (intro to templates)
+Recursive File Reader
+
+
+intro-cpp-programs/
+│
+├── README.md
+│
+├── 01-hello/
+│   ├── hello.cpp
+│   └── README.md
+│
+├── 02-temperature-converter/
+│   ├── temperature_converter.cpp
+│   └── README.md
+│
+├── 03-guess-the-number/
+│   ├── guess_the_number.cpp
+│   └── README.md
+│
+├── 04-prime-numbers/
+│   ├── prime_numbers.cpp
+│   └── README.md
+│
+├── 05-stack-template/
+│   ├── stack_template.cpp
+│   └── README.md
+│
+└── 06-recursive-file-reader/
+    ├── recursive_file_reader.cpp
+    └── README.md
