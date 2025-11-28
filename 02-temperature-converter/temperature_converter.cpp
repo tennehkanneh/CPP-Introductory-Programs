@@ -20,15 +20,20 @@ int main()
     // Convert first character to uppercase
     char scale = toupper(scaleChoice[0]);
 
-    if (scale == 'C') {
+    if (scale == 'C') 
+    {
         cout << temp << "C is " 
              << (temp * CONVERSION_FACTOR + BASE) << "F" << endl;
 
-    } else if (scale == 'F') {
+    } 
+    else if (scale == 'F') 
+    {
         cout << temp << "F is " 
              << ((temp - BASE) / CONVERSION_FACTOR) << "C" << endl;
 
-    } else {
+    } 
+    else 
+    {
         cout << "You did not enter C or F!" << endl;
         return 1;
     }
