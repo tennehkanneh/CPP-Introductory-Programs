@@ -16,25 +16,21 @@ int main()
     {
         if (guess <= 0 || guess > MAX)
         {
-            cout << "Oops guess is not between 1 and 10!\n";
+            cout << "Oops, guess is not between 1 and 10!" << endl;
         }
         else if (guess < answer)
         {
-
-            cout << "Higher!\n";
-            cout << "Guess Again: ";
-            cin >> guess;
+            cout << "Higher!" << endl;
         }
         else if (guess > answer)
         {
-
-            cout << "Lower\n";
-            cout << "Guess Again: ";
-            cin >> guess;
+            cout << "Lower!" << endl;
         }
-    };
 
-    cout << "You guessed it!\n";
-    cout << "The answer was "  << answer << "\n\n";
-  
+        cout << "Guess Again: ";
+        cin >> guess;
+    }
+
+    cout << "You guessed it!" << endl;
+    cout << "The answer was " << answer << endl;
 }
