@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include <cctype>      // <- needed for toupper()
+#include <cctype> 
 using namespace std;
 
 template <typename T>
